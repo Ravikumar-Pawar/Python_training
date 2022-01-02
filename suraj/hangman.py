@@ -97,7 +97,7 @@ while True:
             trial=trial+1
       
        # guessed all letters in a word
-       if guessList.count('#') == 0 :
+       if guessList.count('_') == 0 :
           gameOver=True
           guessWord=True
      
